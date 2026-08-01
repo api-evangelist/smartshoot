@@ -1,7 +1,29 @@
 aid: smartshoot
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartshoot.png
 name: SmartShoot
-description: SmartShoot is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SmartShoot is a San Francisco-based (founded 2012) photography and video
+  production platform that connects enterprises and marketing teams with a
+  managed network of more than 200,000 professional photographers and
+  videographers to produce custom, on-brand photo and video content at scale.
+  The web-based platform coordinates shoot booking, project collaboration,
+  editing, and cloud-based delivery across many locations, serving e-commerce,
+  real estate, and multi-location brands such as Google, YouTube, Uber,
+  Expedia, and Yelp. SmartShoot is a B2B managed-service marketplace with no
+  publicly documented developer API, OpenAPI/AsyncAPI specification, SDK, MCP
+  server, or developer portal as of this enrichment pass; it was surfaced as a
+  portfolio company of Uncork Capital.
 url: https://raw.githubusercontent.com/api-evangelist/smartshoot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Photography
+- Video Production
+- Creative Services
+- Marketplace
+- Content Production
+- Enterprise
 apis: []
+common:
+- type: Website
+  url: https://www.smartshoot.com/
+- type: SignUp
+  url: https://www.smartshoot.com/signup
+- type: Login
+  url: https://app.smartshoot.com
+- type: Support
+  url: https://www.smartshoot.com/contact
+- type: TermsOfService
+  url: https://www.smartshoot.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.smartshoot.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/smartshoot
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
